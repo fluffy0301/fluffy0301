@@ -1,0 +1,60 @@
+/*
+	 * 여러 줄 주석
+	 * 자바는 주석과 공백을 무한히 허용함
+	 * 가독성 높은(읽기 편한) 코드 작성을 권장
+	 */
+
+	/* public static void main(String[] args)
+	 * 프로그램 실행의 약속된 출발선
+	 * 이름은 main method
+	 * 프로그램 실행되면 main method의 첫 줄에서 마지막 줄까지를 한 줄씩 순서대로 수행
+	 */
+	public static void main(String[] args) {
+
+		System.out.println(123);//println - print line new
+		//System.out.println : 화면 출력 메소드
+		System.out.print(456);
+		System.out.print(789);//정수 출력
+		System.out.println();//줄 바꿈
+		System.out.println(0.12345);//실수 출력
+		System.out.println('A');//문자 출력은 작은 따옴표, 문자는 오직 한 자를 의미
+		System.out.println("문자열 출력은 큰 따옴표");
+		System.out.println(true);//true, false는 논리형 기호
+		/*
+		 * System은 현재 컴퓨터를 의미함
+		 * . : 내부, 속한, 가지고 있는
+		 * System.out : 시스템 내부의 out을 의미함
+		 * out.println : out이 가지고 있는 println을 의미함
+		 * out : 컴퓨터 화면으로 출력하려는 자료가 임시로 대기하는 공간
+		 * out.print : 출력 대상 자료를 화면으로 출력해라
+		 * print : 화면 출력, println : 화면 출력 후 줄 바꿈 (line new)
+		 * print() : () 안의 내용을 출력하라.
+		 * ; : semicolon : 한 줄의 코딩이 끝났음을 표시
+		 */
+	}//end of main
+
+}//end of class
+
+public class Start02 {
+
+	public static void main(String[] args) {
+		method1();
+		method2(2, 3);
+		int data4 = method3(4,5);
+		System.out.println(data4);
+	}//main
+
+	public static void method1() {//param 없고, return 없고.//예)시계
+		System.out.println(1 + 1);
+	}//method1
+
+	public static void method2(int data1, int data2) {//param O, return X.//선풍기
+		System.out.println(data1 + data2);
+	}//method2
+
+	public static int method3(int data1, int data2) {//param O, return O.//세탁기
+		int data3 = data1 + data2;
+		return data3;
+	}//method3
+
+}//class
