@@ -1,0 +1,16 @@
+public class Ch02EX02 {
+	
+	public static void main(String[] args) {
+
+		int data1 = 9876;
+		int data2 = 8765;
+
+		System.out.println(data1 + data2);
+		System.out.println(data1 - data2);
+		System.out.println(data1 * data2);
+
+		data2 = 4;
+		System.out.println(data1 / data2);
+	}//main
+	
+}//class
