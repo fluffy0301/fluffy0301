@@ -1,0 +1,19 @@
+package Ch02;
+
+
+public class Ch02EX03 {
+	
+	public static void main(String[] args) {
+		
+		int data1; 
+	
+		data1 = 9876;
+	
+		int  data2 = 8765; //선언과 초기화를 한반에 할 수도 있다.
+		
+		int a=1, b=2, c=3, d=4, e=5; // 여러 개 동시 처리 가능 
+		
+		
+	}//main
+
+}//class
