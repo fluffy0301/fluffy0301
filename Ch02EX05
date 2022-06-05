@@ -1,0 +1,25 @@
+public class Ch02EX05 {
+	
+	public static void main(String[] args) {
+		
+		byte byteVar1 = 1, bytevar2 = 2; 
+		//byte byteVar3 = byteVar1 + byteVar2;// 왜 에러일까?
+		// -> 정수 변수의 기본형은 int. (아무 생각 없이 코딩하면 다 int가 된다)
+		// -> 연산을 할 떄 int형으로 변화가 발생. 
+		
+		byte byteVar4 = 1 +2; 
+		byte byteVar5 = byteVar1;
+		
+		short shortVar1 =1, shortVar2 =2;
+		short shortVar4 = 1 +2;
+		short shortVar5 = shortVar1; 
+		
+		long longvalue1 = 1L, longvalue2 = 2L;
+		long longvalue3 = longvalue1 * longvalue2;
+		
+				
+	
+	}//main
+	
+	
+}//class 
