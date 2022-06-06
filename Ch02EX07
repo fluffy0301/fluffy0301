@@ -1,0 +1,16 @@
+public class Ch02EX07 {
+
+	public static void main(String[] args) {
+	
+	float floatVar1 = 0.9F,floatVar2 = 0.5F; 
+	System.out.println(floatVar1);
+	
+	double doubleVar1= floatVar1; 
+    System.out.println(doubleVar1);
+    
+    double doubleVar2 = floatVar1 + floatVar2;
+    System.out.println(doubleVar2);
+		
+	}//main
+
+}//class 
