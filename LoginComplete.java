@@ -30,7 +30,7 @@ public class LoginComplete extends HttpServlet {
   out.print("<a href = 'login/27login.html'>get straight to login</a>");
   } else { // who successed to login 
     response.addHeader("refresh" + "5;url=http://localhost:8080/0624_servlet/svl/13index.html");
-    out.print("<h1> + loginID + " welcome here </h1>")
+    out.print("<h1> + loginID + "welcome here </h1>");
   }
   }//doGet
   
